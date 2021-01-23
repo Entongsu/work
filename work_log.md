@@ -67,6 +67,8 @@ I have created a video to show the situation.The video is in 2D.
 1) volumn constraint
 
 [Video](https://github.com/Entongsu/work/blob/master/data/volume/volumn_constraint.mp4 "here")
+
+
 [Image of original point cloud]
 ![Image of original point cloud ](https://github.com/Entongsu/work/blob/master/data/volume/temp_0000.jpg)
 Image of final point cloud
@@ -75,7 +77,8 @@ Image of final point cloud
 2) shape matching
  [Video](https://github.com/Entongsu/work/blob/master/data/shape%20matching/shape_matching.mp4 "here")
 
-[Image of original point cloud]
+
+Image of original point cloud
 ![Image of original point cloud ](https://github.com/Entongsu/work/blob/master/data/shape%20matching/temp_0000.jpg)
 Image of final point cloud
 ![Image of original point cloud ](https://github.com/Entongsu/work/blob/master/data/shape%20matching/temp_0009.jpg)
