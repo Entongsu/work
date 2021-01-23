@@ -1,7 +1,7 @@
 # PBD
 
-# Week 2
-2021  January 18th
+## Week 2
+### 2021  January 18th
 
 1、read the article about the application of PBD and make notes.
 
@@ -12,7 +12,7 @@
 
 
 
-2021 January 19th
+### 2021 January 19th
 
 1. I have created the mesh for the PBD to test by using pygmsh libarary
 
@@ -22,7 +22,7 @@
 
 
 
-2021 January 20th
+### 2021 January 20th
 
 1. Beginning to write the coding for the PBD and also finds to demo to help me have a better understand about the theory of PBD.
 
@@ -30,9 +30,7 @@
 
 
 
-
-
-2021 January 21th
+### 2021 January 21th
 
 1. Finishing the coding part for shape matching -> rigid body or soft body
 
@@ -41,7 +39,7 @@
 3.Finishing the coding part for distance constraint ->  stretch
 
 
-2021 January 22th
+### 2021 January 22th
 
 1.modifying the coding and verify the related math equation
 
@@ -50,7 +48,7 @@
 3. I have found a problem. When I apply volumn constraint on the object, even though I have set a velocity at the beginning, after applying the solver, the velocity always become zero. But this situation does not happen on the stretch or shape matching.
 
 
-2021 January 23th
+### 2021 January 23th
 
 1. Trying to set some points in the object as fixed to modify the model. 
 
