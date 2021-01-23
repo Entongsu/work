@@ -58,7 +58,7 @@
 
 3. I still find another problem. When I only apply the volumn constraint, the shape change in a normal ways
 
-It seems that the code can run, but some parameter and some setting should be considered so that the simulation more reasonable.
+
 
 ### Weekly analysis:
 
@@ -69,12 +69,13 @@ I have created a video to show the situation.The video is in 2D.
 [Video](https://github.com/Entongsu/work/blob/master/volume/volumn_constraint.mp4 "here")
 
 
-[Image of original point cloud]
+Image of original point cloud
 ![Image of original point cloud ](https://github.com/Entongsu/work/blob/master/volume/temp_0000.jpg)
 Image of final point cloud
 ![Image of original point cloud ](https://github.com/Entongsu/work/blob/master/volume/temp_0009.jpg)
 
 2) shape matching
+
  [Video](https://github.com/Entongsu/work/blob/master/shape%20matching/shape_matching.mp4 "here")
 
 
@@ -83,6 +84,8 @@ Image of original point cloud
 Image of final point cloud
 ![Image of original point cloud ](https://github.com/Entongsu/work/blob/master/shape%20matching/temp_0009.jpg)
 
+
+After I set some points to be fixed, the change of velocity of shape matching and volume constraint seems to be more reasonable. But when I apply the shape matching to the model, the volume becomes smaller and smaller. I think it is likely caused by the parameter setting.
 
 The update code is [Here](https://github.com/Entongsu/work/blob/master/postion.py "here").(It is better to run it in the spyder.)
 
