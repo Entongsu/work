@@ -60,7 +60,7 @@
 
 It seems that the code can run, but some parameter and some setting should be considered so that the simulation more reasonable.
 
-Weekly analysis:
+### Weekly analysis:
 
 I have created a video to show the situation.The video is in 2D.
 
