@@ -315,7 +315,7 @@ def get_location(num_points,tetra,points,stiffness,dt,interation,damping,mass,re
     new_volumn=get_volumn(new_points,tetra)
     print('The new volumn is',abs(new_volumn))
 
-    file_name='/Users/entongsu/Downloads/robotics/week 2/data/'+str(interation)+'.npy'
+    file_name='/Users/entongsu/Downloads/robotics/week_2/data/'+str(interation)+'.npy'
     np.save(file_name,new_points)
     return new_points,v
 
@@ -345,7 +345,7 @@ def solve(points,rest_length,surface_points,tetra,point_properity,tetra_volumn,d
    damping=30
  
    
-   file_name='/Users/entongsu/Downloads/robotics/week 2/data/'+str(0)+'.npy'
+   file_name='/Users/entongsu/Downloads/robotics/week_2/data/'+str(0)+'.npy'
    np.save(file_name,points)
    
    
@@ -356,7 +356,7 @@ def solve(points,rest_length,surface_points,tetra,point_properity,tetra_volumn,d
       
     
    for i in range(simulation_step):
-       file_name='/Users/entongsu/Downloads/robotics/week 2/data/'+str(i)+'.npy'  
+       file_name='/Users/entongsu/Downloads/robotics/week_2/data/'+str(i)+'.npy'  
         
    return points
     
@@ -369,7 +369,7 @@ def create_image():
     vis.add_geometry(geometry)
     
     for i in range(10):
-        file_name='/Users/entongsu/Downloads/robotics/week 2/data/'+str(i)+'.npy'
+        file_name='/Users/entongsu/Downloads/robotics/week_2/data/'+str(i)+'.npy'
         pc_xyzrgb=np.load(file_name)
         pc = o3d.PointCloud()
         pc.points = o3d.Vector3dVector(pc_xyzrgb[:, 0:3])
@@ -381,14 +381,14 @@ def create_image():
         vis.update_geometry()
         vis.poll_events()
         vis.update_renderer()
-        vis.capture_screen_image("/Users/entongsu/Downloads/robotics/week 2/data/temp_%04d.jpg" % i)
+        vis.capture_screen_image("/Users/entongsu/Downloads/robotics/week_2/data/temp_%04d.jpg" % i)
     vis.destroy_window()
 
 def create_video():
-    writer = imageio.get_writer('/Users/entongsu/Downloads/robotics/week 2/data/shape_matching.mp4', fps=1)
+    writer = imageio.get_writer('/Users/entongsu/Downloads/robotics/week_2/data/shape_matching.mp4', fps=1)
 
-    for index in range(4):
-        image_path="/Users/entongsu/Downloads/robotics/week 2/data/temp_%04d.jpg" % index
+    for index in range(10):
+        image_path="/Users/entongsu/Downloads/robotics/week_2/data/temp_%04d.jpg" % index
         frame = imageio.imread(image_path)
         writer.append_data(frame)
     
@@ -398,5 +398,6 @@ if __name__ == '__main__':
     points,rest_length,surface_points,tetra,point_properity,tetra_volumn,dt,mass=prepare_data()
     new_points=solve(points,rest_length,surface_points,tetra,point_properity,tetra_volumn,dt,mass)
     create_image()
+    create_video()
 
 #%%
