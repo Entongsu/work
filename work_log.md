@@ -81,5 +81,5 @@ Image of final point cloud
 ![Image of original point cloud ](https://github.com/Entongsu/work/blob/master/data/shape%20matching/temp_0009.jpg)
 
 
-The update code is [Here](https://github.com/Entongsu/PBD/blob/main/postion.py "here").(It is better to run it in the spyder.)
+The update code is [Here](https://github.com/Entongsu/work/blob/master/postion.py "here").(It is better to run it in the spyder.)
 
