@@ -1,5 +1,32 @@
 # PBD
 
+
+## week 3
+### shape_matching.py 
+The most important part is shape matching [link] 
+In order to run the code, user should modify the file location and can custom the some parameter,such as stiffness 
+And I have set the origin points as unchanged and the original shape is square.
+The original square as show below. 
+
+
+And the changed points location as bewlow.
+
+And the video has showed the changed of the points. 
+
+If I set the stiffness of stiffness into different value, the shape of the square becomes bigger, but if I set the stiffness as 1, the shape of the square unchanged. 
+
+if the stiness is 0.001,
+The locations of final points.
+| -32379.81578896 | -21356.6336937 |  -13293.13784562 |
+| -30794.87614147-| -23292.06954996 | -10027.99576043|
+| -35097.3023313 | -25727.39996549 | -13397.81135249 |
+| -35841.27170157 | -22110.02355478 | -14140.04260601 |
+
+
+
+
+
+
 ## Week 2
 ### 2021  January 18th
 
