@@ -32,15 +32,14 @@ location of the changed points.
  
  [0.72801132 0.72801132 0.72801132]]
  
- 
-1)I have change the second point into a very different location and other points change into the same location.
+ I have change the second point into a very different location and other points change into the same location.
  
 
 And the video has showed the changed of the points. 
 
 If I set the stiffness of stiffness into different value, the shape of the square becomes bigger, but if I set the stiffness as 1, the shape of the square unchanged. 
 
-if the stiness is 0.01,
+1)if the stiness is 0.01,
 The locations of final points.
 
 [video](https://github.com/Entongsu/work/blob/master/shape_matching%20demo/shape_matching_0.01.mp4)
@@ -54,7 +53,7 @@ The locations of final points.
 
 The orignal distance between two pair of points is 2, but now the distance become 2.4797463771484245.
 
-But if I change the stiffness into 1, 
+2)But if I change the stiffness into 1, 
 
 [video](https://github.com/Entongsu/work/blob/master/shape_matching%20demo/shape_matching_1.mp4)
 
@@ -67,8 +66,11 @@ But if I change the stiffness into 1,
 
 The orignal distance between two pair of points is 2, but now the distance keep about 2.000000000000434, but the points become far away from the original one.
 
-if I set stiffness as 0.1, the final distance is 2.000000000014667. 
+3)if I set stiffness as 0.1, the final distance is 2.000000000014667. 
+
 [video](https://github.com/Entongsu/work/blob/master/shape_matching%20demo/shape_matching_0.1.mp4)
+
+### Analysis
 
 I think the size of the shape is affected by the setting of the stiffness. It is normal to get different size for the same points. But I am not sure whether it is normal for points to become far from the original one. 
 
@@ -76,6 +78,7 @@ Because the location of the final points becomes far away from the original one,
 
 I also verify my coding by just changing the location of one point, the distance between pair of points is unchanged. 
 
+In order to show the size of the final points, I have modify the coding here [link](https://github.com/Entongsu/work/blob/master/shape_matching%20demo/shape_matching.py#L180)
 
 
 ## Week 2
