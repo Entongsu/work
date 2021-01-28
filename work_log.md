@@ -1,6 +1,6 @@
 # PBD
-<iframe height=500 width=500 src='https://github.com/Entongsu/work/blob/master/shape_matching%20demo/shape_matching.gif' >
-</iframe>
+<img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" width="40" height="40" />
+
 ## week 3
 ### shape_matching.py 
 
