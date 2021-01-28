@@ -4,7 +4,9 @@
 ## week 3
 ### shape_matching.py 
 The most important part is shape matching [link] 
+
 In order to run the code, user should modify the file location and can custom the some parameter,such as stiffness 
+
 And I have set the origin points as unchanged and the original shape is square.
 The original square as show below. 
 location of the original points
@@ -65,13 +67,17 @@ But if I change the stiffness into 1,
 
 The orignal distance between two pair of points is 2, but now the distance keep about 2.000000000000434, but the points become far away from the original one.
 
-if I set stiffness as 0.1, the final distance is 2.000000000014667. [video]https://github.com/Entongsu/work/blob/master/shape_matching%20demo/shape_matching_0.1.mp4
+if I set stiffness as 0.1, the final distance is 2.000000000014667. 
+[video](https://github.com/Entongsu/work/blob/master/shape_matching%20demo/shape_matching_0.1.mp4)
 
 I think the size of the shape is affected by the setting of the stiffness. It is normal to get different size for the same points. But I am not sure whether it is normal for points to become far from the original one. 
 
 Because the location of the final points becomes far away from the original one, the points in the image seems to be smaller, but the distance between pair of points is unchanged. 
 
 I also verify my coding by just changing the location of one point, the distance between pair of points is unchanged. 
+
+
+
 ## Week 2
 ### 2021  January 18th
 
