@@ -7,9 +7,21 @@ The most important part is shape matching [link]
 In order to run the code, user should modify the file location and can custom the some parameter,such as stiffness 
 And I have set the origin points as unchanged and the original shape is square.
 The original square as show below. 
+location of the original points
 
+[0., 0., 1.],
+[0., 2., 1.],
+[2., 2., 1.],
+[2., 0., 1.]
 
 And the changed points location as bewlow.
+location of the changed points.
+[[0.72801132 0.72801132 0.72801132]
+ [0.72801132 1.45602264 2.18403397]
+ [0.72801132 0.72801132 0.72801132]
+ [0.72801132 0.72801132 0.72801132]]
+ I have change the second point into a very different location and other points change into the same location. 
+ 
 
 And the video has showed the changed of the points. 
 
@@ -44,6 +56,7 @@ I think the size of the shape is affected by the setting of the stiffness. It is
 
 Because the location of the final points becomes far away from the original one, the points in the image seems to be smaller, but the distance between pair of points is unchanged. 
 
+I also verify my coding by just changing the location of one point, the distance between pair of points is unchanged. 
 ## Week 2
 ### 2021  January 18th
 
