@@ -117,6 +117,49 @@ The video will show the change of deformed object during the shape matching proc
 <img src="https://github.com/Entongsu/work/blob/master/shape_matching%20demo/shape_matching.gif" width="700" height="700" />
 <img src="https://github.com/Entongsu/work/blob/master/shape%20matching/small.gif" width="700" height="700" />
 
+### Comparison
+I have made a comparsion between the different point cloud.
+1) The image of original point cloud and deformed point cloud from differnt angle.
+
+<img src="https://github.com/Entongsu/work/blob/master/shape_matching%20demo/3Dimage/deformed1.png" width="300" height="300" />
+
+
+<img src="https://github.com/Entongsu/work/blob/master/shape_matching%20demo/3Dimage/deformed2.png" width="300" height="300" />
+
+
+<img src="https://github.com/Entongsu/work/blob/master/shape_matching%20demo/3Dimage/deformed3.png" width="300" height="300" />
+
+
+<img src="https://github.com/Entongsu/work/blob/master/shape_matching%20demo/3Dimage/deformed4.png" width="300" height="300" />
+
+2) The image of original point cloud and final point cloud from differnt angle.
+
+<img src="https://github.com/Entongsu/work/blob/master/shape_matching%20demo/3Dimage/final1.png" width="300" height="300" />
+
+
+<img src="https://github.com/Entongsu/work/blob/master/shape_matching%20demo/3Dimage/final2.png" width="300" height="300" />
+
+<img src="https://github.com/Entongsu/work/blob/master/shape_matching%20demo/3Dimage/final3.png" width="300" height="300" />
+
+
+<img src="https://github.com/Entongsu/work/blob/master/shape_matching%20demo/3Dimage/final4.png" width="300" height="300" />
+
+The pink one is original point cloud and the black one in the 1) is deformed object and black one in 2) is 
+final point cloud. 
+
+<img src="https://github.com/Entongsu/work/blob/master/shape_matching%20demo/3Dimage/final4.png" width="300" height="300" /> 
+
+
+
+The pink one is original point cloud and the black one in the 1) is deformed object and black one in 2) is 
+final point cloud. 
+
+And the average distance betwween the original point cloud  and deformed  point cloud is 0.9359840468431038.
+
+And the average distance betwween the original point cloud  and final  point cloud is 4.322568059488684e-09.
+
+From the average distance and image, it is reasonable to regard that after applying the shape matching, the original point cloud and final point cloud is matching well.
+
 
 ## Week 2
 ### 2021  January 18th
