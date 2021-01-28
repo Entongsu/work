@@ -15,20 +15,34 @@ And the video has showed the changed of the points.
 
 If I set the stiffness of stiffness into different value, the shape of the square becomes bigger, but if I set the stiffness as 1, the shape of the square unchanged. 
 
-if the stiness is 0.001,
-The locations of final points.
+if the stiness is 0.01,
+The locations of final points.[video]
 
 | original points | final points |
 | :-----| ----: | 
-|[0., 0., 1.]| [-32379.81578896 ,-21356.6336937 ,-13293.13784562] |
-|  [0., 2., 1.]|[-30794.87614147 , -23292.06954996 , -10027.99576043] |
-| [2., 2., 1.] |[-35097.3023313  , -25727.39996549 , -13397.81135249 ]|
-| [2., 0., 1.]|[-35841.27170157 , -22110.02355478 , -14140.04260601] |
+|[0., 0., 1.]| [-13771.57154176, -10093.62211758,  -6416.97837706] |
+|  [0., 2., 1.]|[-13771.53298178, -10096.10121165,  -6416.9365703 ] |
+| [2., 2., 1.] | [-13774.0123206 , -10096.1402962 ,  -6416.96258813]|
+| [2., 0., 1.]|[-13774.05088058, -10093.66120212,  -6417.00439489]|
 
+The orignal distance between two pair of points is 2, but now the distance become 2.4797463771484245.
 
+But if I change the stiffness into 1, [video]
 
+| original points | final points |
+| :-----| ----: | 
+|[0., 0., 1.]| -17034.90662831, -14501.31517926, -11968.72516619] |
+|  [0., 2., 1.]|[-17034.92732662, -14503.31251132, -11968.6239919 ] |
+| [2., 2., 1.] |[-17036.92693506, -14503.2935489 , -11968.65872676]|
+| [2., 0., 1.]|[-17036.90623676, -14501.29621685, -11968.75990105] |
 
+The orignal distance between two pair of points is 2, but now the distance keep about 2.000000000000434, but the points become far away from the original one.
 
+if I set stiffness as 0.1, the final distance is 2.000000000014667. [video]
+
+I think the size of the shape is affected by the setting of the stiffness. It is normal to get different size for the same points. But I am not sure whether it is normal for points to become far from the original one. 
+
+Because the location of the final points becomes far away from the original one, the points in the image seems to be smaller, but the distance between pair of points is unchanged. 
 
 ## Week 2
 ### 2021  January 18th
