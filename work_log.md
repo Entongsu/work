@@ -9,8 +9,8 @@ In order to run the code, user should modify the file location and can custom th
 And I have set the origin points as unchanged and the original shape is square.
 The original square as show below. 
 location of the original points
+<img src="https://github.com/Entongsu/work/blob/master/shape_matching%20demo/changeall/temp_0000.jpg" width="300" height="300" />
 
-![Image ](https://github.com/Entongsu/work/blob/master/shape_matching%20demo/changeall/temp_0000.jpg width="300" height="300")
 
 [0., 0., 1.],
 [0., 2., 1.],
@@ -18,8 +18,8 @@ location of the original points
 [2., 0., 1.]
 
 And the changed points location as bewlow.
+<img src="https://github.com/Entongsu/work/blob/master/shape_matching%20demo/changeall/temp_0001.jpg" width="300" height="300" />
 
-![Image ](https://github.com/Entongsu/work/blob/master/shape_matching%20demo/changeall/temp_0001.jpg width="300" height="300")
 
 location of the changed points.
 
