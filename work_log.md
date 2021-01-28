@@ -139,8 +139,6 @@ I have made a comparsion between the different point cloud.
 
 <img src="https://github.com/Entongsu/work/blob/master/shape_matching%20demo/3Dimage/final2.png" width="300" height="300" />
 
-<img src="https://github.com/Entongsu/work/blob/master/shape_matching%20demo/3Dimage/final3.png" width="300" height="300" />
-
 
 <img src="https://github.com/Entongsu/work/blob/master/shape_matching%20demo/3Dimage/final13.png" width="300" height="300" />
 
