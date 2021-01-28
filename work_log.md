@@ -104,9 +104,9 @@ And I have found some interesting points. If the stiffness is small, the deforme
 The video will show the change of deformed object during the shape matching process. And the coding keep the object deformed all the time. So the object will be deformed, even though it return to the normal position in the last time. 
 
 1) None modified one (points become far away)
-
+[video](https://github.com/Entongsu/work/blob/master/shape_matching%20demo/softway.mp4)
 2) modified one (show the actual size of the object.)
-
+[video](https://github.com/Entongsu/work/blob/master/shape_matching%20demo/rudeway.mp4)
 ## Week 2
 ### 2021  January 18th
 
