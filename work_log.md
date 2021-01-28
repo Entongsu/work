@@ -130,7 +130,7 @@ I have made a comparsion between the different point cloud.
 <img src="https://github.com/Entongsu/work/blob/master/shape_matching%20demo/3Dimage/deformed3.png" width="300" height="300" />
 
 
-<img src="https://github.com/Entongsu/work/blob/master/shape_matching%20demo/3Dimage/deformed4.png" width="300" height="300" />
+<img src="https://github.com/Entongsu/work/blob/master/shape_matching%20demo/3Dimage/deformed14.png" width="300" height="300" />
 
 2) The image of original point cloud and final point cloud from differnt angle.
 
@@ -142,12 +142,11 @@ I have made a comparsion between the different point cloud.
 <img src="https://github.com/Entongsu/work/blob/master/shape_matching%20demo/3Dimage/final3.png" width="300" height="300" />
 
 
-<img src="https://github.com/Entongsu/work/blob/master/shape_matching%20demo/3Dimage/final4.png" width="300" height="300" />
+<img src="https://github.com/Entongsu/work/blob/master/shape_matching%20demo/3Dimage/final13.png" width="300" height="300" />
 
-The pink one is original point cloud and the black one in the 1) is deformed object and black one in 2) is 
-final point cloud. 
 
-<img src="https://github.com/Entongsu/work/blob/master/shape_matching%20demo/3Dimage/final4.png" width="300" height="300" /> 
+
+<img src="https://github.com/Entongsu/work/blob/master/shape_matching%20demo/3Dimage/final14.png" width="300" height="300" /> 
 
 
 
