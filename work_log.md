@@ -96,6 +96,16 @@ And after I modify the location of the final points, the image show the actual s
 3) Changing the file location when run the code.
 
 
+### experiment on the complex object
+
+In order to verify the coding, I have do experiment on the complex object.
+And I have found some interesting points. If the stiffness is small, the deformed object needs more times to find the best rigid transformation. And if I not do some modification one the coding [link](https://github.com/Entongsu/work/blob/master/shape_matching%20demo/shape_matching.py#L180), the object will become far from the original one, which makes it small in the image but the volume of the object is unchanged.
+
+The video will show the change of deformed object during the shape matching process. And the coding keep the object deformed all the time. So the object will be deformed, even though it return to the normal position in the last time. 
+
+1) None modified one (points become far away)
+
+2) modified one (show the actual size of the object.)
 
 ## Week 2
 ### 2021  January 18th
