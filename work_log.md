@@ -3,7 +3,6 @@
 
 ## week 3
 ### shape_matching.py 
-The most important part is shape matching [link] 
 
 In order to run the code, user should modify the file location and can custom the some parameter,such as stiffness 
 
@@ -78,7 +77,7 @@ Because the location of the final points becomes far away from the original one,
 
 I also verify my coding by just changing the location of one point, the distance between pair of points is unchanged. 
 
-In order to show the size of the final points, I have modify the coding here [link](https://github.com/Entongsu/work/blob/master/shape_matching%20demo/shape_matching.py#L180)
+In order to show the size of the final points, I have modify the coding here. [link](https://github.com/Entongsu/work/blob/master/shape_matching%20demo/shape_matching.py#L180)
 
 And after I modify the location of the final points, the image show the actual size of the final square. 
 
@@ -87,6 +86,16 @@ And after I modify the location of the final points, the image show the actual s
 
 2) change four points 
 ![image](https://github.com/Entongsu/work/blob/master/shape_matching%20demo/changeall/temp_0002.jpg)
+
+### Coding notation
+1)The most important part is shape matching and the former coding can be ignored. [link] (https://github.com/Entongsu/work/blob/master/shape_matching%20demo/shape_matching.py#L137)
+
+2) And user can change the location of the original points by changing the value of the velocity here. [link]
+(https://github.com/Entongsu/work/blob/master/shape_matching%20demo/shape_matching.py#L137)
+
+3) Changing the file location when run the code.
+
+
 
 ## Week 2
 ### 2021  January 18th
