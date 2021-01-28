@@ -115,7 +115,7 @@ The video will show the change of deformed object during the shape matching proc
 
 
 <img src="https://github.com/Entongsu/work/blob/master/shape_matching%20demo/shape_matching.gif" width="700" height="700" />
-<img src="https://github.com/Entongsu/work/blob/master/shape%20matching/shape_matching.gif" width="700" height="700" />
+<img src="https://github.com/Entongsu/work/blob/master/shape%20matching/small.gif" width="700" height="700" />
 
 
 ## Week 2
