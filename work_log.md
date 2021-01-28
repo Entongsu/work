@@ -80,6 +80,13 @@ I also verify my coding by just changing the location of one point, the distance
 
 In order to show the size of the final points, I have modify the coding here [link](https://github.com/Entongsu/work/blob/master/shape_matching%20demo/shape_matching.py#L180)
 
+And after I modify the location of the final points, the image show the actual size of the final square. 
+
+1) change the location of one point. 
+![image](https://github.com/Entongsu/work/blob/master/shape_matching%20demo/onepoint/temp_0002.jpg)
+
+2) change four points 
+![image](https://github.com/Entongsu/work/blob/master/shape_matching%20demo/changeall/temp_0002.jpg)
 
 ## Week 2
 ### 2021  January 18th
