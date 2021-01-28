@@ -88,7 +88,7 @@ And after I modify the location of the final points, the image show the actual s
 ![image](https://github.com/Entongsu/work/blob/master/shape_matching%20demo/changeall/temp_0002.jpg)
 
 ### Coding notation
-1)The most important part is shape matching and the former coding can be ignored. [link] (https://github.com/Entongsu/work/blob/master/shape_matching%20demo/shape_matching.py#L137)
+1) The most important part is shape matching and the former coding can be ignored. [link] (https://github.com/Entongsu/work/blob/master/shape_matching%20demo/shape_matching.py#L137)
 
 2) And user can change the location of the original points by changing the value of the velocity here. [link]
 (https://github.com/Entongsu/work/blob/master/shape_matching%20demo/shape_matching.py#L137)
