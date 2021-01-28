@@ -18,7 +18,7 @@ location of the original points
 
 And the changed points location as bewlow.
 
-![Image ](https://github.com/Entongsu/work/blob/master/shape_matching%20demo/changeall/temp_0001.jpg
+![Image ](https://github.com/Entongsu/work/blob/master/shape_matching%20demo/changeall/temp_0001.jpg)
 
 location of the changed points.
 
@@ -41,7 +41,7 @@ If I set the stiffness of stiffness into different value, the shape of the squar
 if the stiness is 0.01,
 The locations of final points.
 
-[video]
+[video](https://github.com/Entongsu/work/blob/master/shape_matching%20demo/shape_matching_0.01.mp4)
 
 | original points | final points |
 | :-----| ----: | 
@@ -54,7 +54,7 @@ The orignal distance between two pair of points is 2, but now the distance becom
 
 But if I change the stiffness into 1, 
 
-[video]
+[video](https://github.com/Entongsu/work/blob/master/shape_matching%20demo/shape_matching_1.mp4)
 
 | original points | final points |
 | :-----| ----: | 
@@ -65,7 +65,7 @@ But if I change the stiffness into 1,
 
 The orignal distance between two pair of points is 2, but now the distance keep about 2.000000000000434, but the points become far away from the original one.
 
-if I set stiffness as 0.1, the final distance is 2.000000000014667. [video]
+if I set stiffness as 0.1, the final distance is 2.000000000014667. [video]https://github.com/Entongsu/work/blob/master/shape_matching%20demo/shape_matching_0.1.mp4
 
 I think the size of the shape is affected by the setting of the stiffness. It is normal to get different size for the same points. But I am not sure whether it is normal for points to become far from the original one. 
 
