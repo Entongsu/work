@@ -8,7 +8,7 @@ In order to run the code, user should modify the file location and can custom th
 And I have set the origin points as unchanged and the original shape is square.
 The original square as show below. 
 location of the original points
-
+[Image](https://github.com/Entongsu/work/blob/master/shape_matching%20demo/changeall/temp_0000.jpg)
 [0., 0., 1.],
 [0., 2., 1.],
 [2., 2., 1.],
@@ -16,10 +16,12 @@ location of the original points
 
 And the changed points location as bewlow.
 location of the changed points.
-[[0.72801132 0.72801132 0.72801132]
- [0.72801132 1.45602264 2.18403397]
- [0.72801132 0.72801132 0.72801132]
- [0.72801132 0.72801132 0.72801132]]
+
+[[0.72801132 0.72801132 0.72801132]//
+ [0.72801132 1.45602264 2.18403397]//
+ [0.72801132 0.72801132 0.72801132]//
+ [0.72801132 0.72801132 0.72801132]]//
+ 
  I have change the second point into a very different location and other points change into the same location. 
  
 
