@@ -110,7 +110,8 @@ The video will show the change of deformed object during the shape matching proc
 [video](https://github.com/Entongsu/work/blob/master/shape_matching%20demo/rudeway.mp4)
 
 3） It seems that the situation can be changed by setting some points as fixed. Under this situation, the final points will be near the original one.(But the fixed points should take a large proportion of all points. )
-[video](https://github.com/Entongsu/work/blob/master/shape_matching%20demo/shape_matching_fixed.mp4)
+[video](https://github.com/Entongsu/work/blob/master/shape_matching%20demo/newone.mp4)
+[video]https://github.com/Entongsu/work/blob/master/shape_matching%20demo/changegreat.mp4
 
 
 ## Week 2
