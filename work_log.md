@@ -155,6 +155,12 @@ And the average distance betwween the original point cloud  and deformed  point 
 
 And the average distance betwween the original point cloud  and final  point cloud is 4.322568059488684e-09.
 
+The gif of original points and deformed points. (The pink one is the original points and the blue one is the deformed points.)
+<img src="https://github.com/Entongsu/work/blob/master/shape%20matching/deformed2.gif" width="700" height="700" />
+
+The gif of final points. (The read one is the final points.)
+<img src="https://github.com/Entongsu/work/blob/master/shape%20matching/final2.gif" width="700" height="700" />
+
 From the average distance and image, it is reasonable to regard that after applying the shape matching, the original point cloud and final point cloud is matching well.
 
 
@@ -225,20 +231,12 @@ I have created a video to show the situation.The video is in 2D.
 [Video](https://github.com/Entongsu/work/blob/master/volume/volumn_constraint.mp4 "here")
 
 
-Image of original point cloud
-![Image of original point cloud ](https://github.com/Entongsu/work/blob/master/volume/temp_0000.jpg)
-Image of final point cloud
-![Image of original point cloud ](https://github.com/Entongsu/work/blob/master/volume/temp_0009.jpg)
 
 2) shape matching
 
  [Video](https://github.com/Entongsu/work/blob/master/shape%20matching/shape_matching.mp4 "here")
 
 
-Image of original point cloud
-![Image of original point cloud ](https://github.com/Entongsu/work/blob/master/shape%20matching/temp_0000.jpg)
-Image of final point cloud
-![Image of original point cloud ](https://github.com/Entongsu/work/blob/master/shape%20matching/temp_0009.jpg)
 
 
 After I set some points to be fixed, the change of velocity of shape matching and volume constraint seems to be more reasonable. But when I apply the shape matching to the model, the volume becomes smaller and smaller. I think it is likely caused by the parameter setting.
