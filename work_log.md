@@ -156,10 +156,10 @@ And the average distance betwween the original point cloud  and deformed  point 
 And the average distance betwween the original point cloud  and final  point cloud is 4.322568059488684e-09.
 
 The gif of original points and deformed points. (The pink one is the original points and the blue one is the deformed points.)
-<img src="https://github.com/Entongsu/work/blob/master/shape%20matching/deformed_2.gif" width="700" height="700" />
+<img src="https://github.com/Entongsu/work/blob/master/shape%20matching/deforomed_100.gif" width="700" height="700" />
 
 The gif of final points. (The red one is the final points.)
-<img src="https://github.com/Entongsu/work/blob/master/shape%20matching/final_2.gif" width="700" height="700" />
+<img src="https://github.com/Entongsu/work/blob/master/shape%20matching/final_100.gif" width="700" height="700" />
 
 The gif of combined original and  final points. (The red one is the final points and the pink one is original points)
 <img src="https://github.com/Entongsu/work/blob/master/shape%20matching/combined.gif" width="700" height="700" />
