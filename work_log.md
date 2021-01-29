@@ -159,10 +159,10 @@ The gif of original points and deformed points. (The pink one is the original po
 <img src="https://github.com/Entongsu/work/blob/master/shape%20matching/deforomed_100.gif" width="700" height="700" />
 
 The gif of final points. (The red one is the final points.)
-<img src="https://github.com/Entongsu/work/blob/master/shape%20matching/final_100.gif" width="700" height="700" />
+<img src="https://github.com/Entongsu/work/blob/master/shape%20matching/final_2.gif" width="700" height="700" />
 
 The gif of combined original and  final points. (The red one is the final points and the pink one is original points)
-<img src="https://github.com/Entongsu/work/blob/master/shape%20matching/combined.gif" width="700" height="700" />
+<img src="https://github.com/Entongsu/work/blob/master/shape%20matching/final_100.gif" width="700" height="700" />
 
 From the average distance and image, it is reasonable to regard that after applying the shape matching, the original point cloud and final point cloud is matching well.
 
