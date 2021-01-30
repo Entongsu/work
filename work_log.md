@@ -15,6 +15,8 @@
 
 3) Changing the file location when run the code.
 
+4) The 'substep' part in the coding: Damping to reduce the velocity. It seems that this part in the coding of taichi is very important. If I do not use this part in my coding, it seems that the shape matching part and the volumn constrain part can function well, but it need to take more time to return the origin.
+
 
 ### experiment on the complex object
 
@@ -100,7 +102,7 @@ From the average distance and image, it is reasonable to regard that after apply
 
 ### 2. volumn constraint
 
-I have found that by running the original demo, the volumn of the deformed point cloud become bigger and bigger. So I rewrite the part about volumn constraint. After I rewrite this part, the volumn becomes smaller and smaller after applying the volumn constrain. But it needs to take more steps to return to the original volumn.
+I have found that by running the original demo, the volumn of the deformed point cloud become bigger and bigger. So I rewrite the part about volumn constraint. After I rewrite this part, the volumn becomes smaller and smaller after applying the volumn constrain. But it needs to take more steps to return to the original volumn. During this process, I do not set any points as fixed.
 
 It is the process of deformed point cloud to return to original volumn. 
 <img src="https://github.com/Entongsu/work/blob/master/volume/volumn_process.gif" width="700" height="700" />
