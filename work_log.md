@@ -3,7 +3,7 @@
 
 ## week 3
 
-### shape_matching.py 
+### 1. shape_matching.py 
 
 
 
@@ -98,6 +98,12 @@ From the average distance and image, it is reasonable to regard that after apply
 5) The process of shape matching.
 <img src="https://github.com/Entongsu/work/blob/master/shape%20matching/shape_matching_process.gif" width="700" height="700" />
 
+### 2. volumn constraint
+
+I have found that by running the original demo, the volumn of the deformed point cloud become bigger and bigger. So I rewrite the part about volumn constraint. After I rewrite this part, the volumn becomes smaller and smaller after applying the volumn constrain. But it needs to take more steps to return to the original volumn.
+
+It is the process of deformed point cloud to return to original volumn. 
+<img src="https://github.com/Entongsu/work/blob/master/volume/volumn_process.gif" width="700" height="700" />
 
 
 ## Week 2
