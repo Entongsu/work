@@ -18,25 +18,21 @@
 ### experiment on the complex object
 
 In order to verify the coding, I have do experiment on the complex object.
-And I have found some interesting points. If the stiffness is small, the deformed object needs more times to find the best rigid transformation. And if I not do some modification one the coding [link](https://github.com/Entongsu/work/blob/master/shape_matching%20demo/shape_matching.py#L180), the object will become far from the original one, which makes it small in the image but the volume of the object is unchanged.
+And I have found some interesting points. If the stiffness is small, the deformed object needs more times to find the best rigid transformation.
 
-The video will show the change of deformed object during the shape matching process. And the coding keep the object deformed all the time. So the object will be deformed, even though it return to the normal position in the last time. 
+And the coding keep the object deformed all the time. So the object will be deformed, even though it return to the normal position in the last time. 
 
-1) None modified one (points become far away)
-[video](https://github.com/Entongsu/work/blob/master/shape_matching%20demo/softway.mp4)
+It seems that the situation can be changed by setting some points as fixed. Under this situation, the final points will be near the original one.(But the fixed points should take a large proportion of all points. )
 
-2) modified one (show the actual size of the object.)
-[video](https://github.com/Entongsu/work/blob/master/shape_matching%20demo/rudeway.mp4)
-
-3） It seems that the situation can be changed by setting some points as fixed. Under this situation, the final points will be near the original one.(But the fixed points should take a large proportion of all points. )
-[video](https://github.com/Entongsu/work/blob/master/shape_matching%20demo/newone.mp4)
-[video](https://github.com/Entongsu/work/blob/master/shape_matching%20demo/changegreat.mp4)
 
 
 <img src="https://github.com/Entongsu/work/blob/master/shape_matching%20demo/shape_matching.gif" width="700" height="700" />
-<img src="https://github.com/Entongsu/work/blob/master/shape%20matching/small.gif" width="700" height="700" />
+
 
 ### Comparison
+
+#### Comparsion 1
+I have run for 100 times to get the final point cloud.
 I have made a comparsion between the different point cloud.
 1) The image of original point cloud and deformed point cloud from differnt angle.
 
@@ -74,16 +70,33 @@ And the average distance betwween the original point cloud  and deformed  point 
 
 And the average distance betwween the original point cloud  and final  point cloud is 4.322568059488684e-09.
 
-The gif of original points and deformed points. (The pink one is the original points and the blue one is the deformed points.)
-<img src="https://github.com/Entongsu/work/blob/master/shape%20matching/deforomed_100.gif" width="700" height="700" />
+#### Comparsion 2
+And the average distance betwween the original point cloud  and deformed  point cloud is 0.35488046835904546.
 
-The gif of final points. (The red one is the final points.)
+I have run for 60 times to get the final point cloud, the average distance  betwween the original point cloud  and final  point cloud is 0.0051741315057538765.
+
+1) The gif of original points .(The pink one is the orignal points) 
+
+<img src="https://github.com/Entongsu/work/blob/master/shape%20matching/original.gif" width="700" height="700" />
+
+2) The gif of deformed points .(The pink one is the deformed points) 
+
+<img src="https://github.com/Entongsu/work/blob/master/shape%20matching/deformed.gif" width="700" height="700" />
+
+3) The gif of final points. (The red one is the final points.)
 <img src="https://github.com/Entongsu/work/blob/master/shape%20matching/final_2.gif" width="700" height="700" />
 
-The gif of combined original and  final points. (The red one is the final points and the pink one is original points)
-<img src="https://github.com/Entongsu/work/blob/master/shape%20matching/final_100.gif" width="700" height="700" />
 
+
+In order to make a comparsion between orginal point cloud and the final point cloud, I have combined them together. 
 From the average distance and image, it is reasonable to regard that after applying the shape matching, the original point cloud and final point cloud is matching well.
+
+4) The gif of combined original and  final points. (The red one is the final points and the pink one is original points)
+<img src="https://github.com/Entongsu/work/blob/master/shape%20matching/final.gif" width="700" height="700" />
+
+5) The process of shape matching.
+<img src="https://github.com/Entongsu/work/blob/master/shape%20matching/shape_matching_process.gif" width="700" height="700" />
+
 
 
 ## Week 2
