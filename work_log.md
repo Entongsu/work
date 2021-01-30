@@ -2,6 +2,7 @@
 
 
 ## week 3
+
 ### shape_matching.py 
 
 
@@ -84,7 +85,7 @@ I have run for 60 times to get the final point cloud, the average distance  betw
 <img src="https://github.com/Entongsu/work/blob/master/shape%20matching/deformed.gif" width="700" height="700" />
 
 3) The gif of final points. (The red one is the final points.)
-<img src="https://github.com/Entongsu/work/blob/master/shape%20matching/final_2.gif" width="700" height="700" />
+<img src="https://github.com/Entongsu/work/blob/master/shape%20matching/final.gif" width="700" height="700" />
 
 
 
@@ -92,7 +93,7 @@ In order to make a comparsion between orginal point cloud and the final point cl
 From the average distance and image, it is reasonable to regard that after applying the shape matching, the original point cloud and final point cloud is matching well.
 
 4) The gif of combined original and  final points. (The red one is the final points and the pink one is original points)
-<img src="https://github.com/Entongsu/work/blob/master/shape%20matching/final.gif" width="700" height="700" />
+<img src="https://github.com/Entongsu/work/blob/master/shape%20matching/comparision.gif" width="700" height="700" />
 
 5) The process of shape matching.
 <img src="https://github.com/Entongsu/work/blob/master/shape%20matching/shape_matching_process.gif" width="700" height="700" />
