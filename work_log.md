@@ -1,5 +1,13 @@
 # PBD
 
+## week 4
+
+### Feb 1st 2021
+1. I have rewrote the code for the shape matching, volumn and distance constrains. It seems that the volumn and distance constrains can function and put the deformed mesh toward the original volumn and distance. 
+2. ** Modification of the coding  **
+1) shape matching: I have made the transformation function complete.
+2) volumn constrain: I have rewrote the coding refering to the [link](https://github.com/InteractiveComputerGraphics/PositionBasedDynamics/blob/master/PositionBasedDynamics/PositionBasedDynamics.cpp), but I have problems about the stiffness
+3) volumn constrain: I have rewrote the coding refering to the [link](https://github.com/InteractiveComputerGraphics/PositionBasedDynamics/blob/master/PositionBasedDynamics/PositionBasedDynamics.cpp),but I have problems about the stiffness
 
 ## week 3
 
