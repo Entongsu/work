@@ -13,10 +13,20 @@ It seems that the volumn constrain and stretch constrain function slowly and by 
 3. I begin to learn the software blender and has made some basic 3D object and also use gmsh to generate mesh for them to run in my code.In order to simulate the muscle, I need to some time to learn more for the blender. 
 
 4. I have tried to use the ply file I get from the blender to apply into the shape matching process. The interation steps is 30 times. It seems the final point cloud has some difference with the original one. 
+The image show the transparent final point cloud. 
+<img src="https://github.com/Entongsu/work/blob/master/image/final.png" width="700" height="700" />
+The image shows the difference between the orignal and final point cloud.And the fissures  show the difference. 
+
+<img src="https://github.com/Entongsu/work/blob/master/image/difference.png" width="700" height="700" />
 
 5. It seems that the mesh incuding the tetra mesh and triangle mesh and sometimes the generated mesh just has triangle mesh, so I try to write the coding for  strain  triangle constrain and it seems that this kind of constraint is suitable in simulating the soft object. I plan to add some constrain to my coding which is suitable to the triangle mesh. It seems that in the three constraint I have coded now, only the shape matching and stretch constraint is usable. Because the generated mesh only has triangle mesh. But the shape matching constraint is more suitable for the rigid body? and the strech constraint run very slow. I think it is suitable to add some other triangle constrain and other constrain to better simulation the PBD?
+ 
 
 6. With the help of blender, I can visualize the triangle mesh and tetra mesh for the object I generated from pygmsh. I found the the triangle mesh only has surface data and I think it is the reason why some place in open3d is transparent. But If I apply the tetra mesh into the blender, it is obvious that the whole oject has tetra mesh. 
+The images shows the shape of object I generate from the pygmsh.The left one is triangle mesh and the right one is tetra mesh. 
+
+<img src="https://github.com/Entongsu/work/blob/master/image/pygmsh.png" width="700" height="700" />
+<img src="https://github.com/Entongsu/work/blob/master/image/pygmsh_1.png" width="700" height="700" />
 
 ## week 3
 
