@@ -7,7 +7,7 @@ Happy New Year!
 
 2. I am writing the code about the real time rendering. But I have encountered a problem that it seems that the rendering process needs a cpu with 32G or 64G storage.And my computer just has 32G, which is not suitable to do the rendering directly. Because when I apply the rendering, my computer becomes very slow and cannot do annything.
 
-3.I am also writing the code for muscle simulation. But the coding in the Viper is a little difficult in understanding and I also cannot find the theory about the restricted CVD, which makes it harder for me to comprehen the coding. 
+3. I am also writing the code for muscle simulation. But the coding in the Viper is a little difficult in understanding and I also cannot find the theory about the restricted CVD, which makes it harder for me to comprehen the coding. 
 
 
 ## week 4
