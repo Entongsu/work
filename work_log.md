@@ -13,13 +13,12 @@
 <div align=center>
 <img src="https://github.com/Entongsu/work/blob/master/image/shape_matching_process.gif"  width="300" height="300"  />
 </div>
-
-   (2) Using knife to cut the original model into 100 small piece, which can make the location of circle partical more accurate.
+     (2) Using knife to cut the original model into 100 small piece, which can make the location of circle partical more accurate.
  
  <div align=center>
 <img src="https://github.com/Entongsu/work/blob/master/image/2.png"  width="200" height="200"  />
 </div>
-    (3) In order to create the cone between two circle particle with triangle mesh, I also use "knife " to cut the surface for 3 times. 
+     (3) In order to create the cone between two circle particle with triangle mesh, I also use "knife " to cut the surface for 3 times. 
 
 <div align=center>
 <img src="https://github.com/Entongsu/work/blob/master/image/3.png"  width="200" height="200" />
@@ -35,8 +34,7 @@ Image has triangle mesh between two circle sphere.
 <img src="https://github.com/Entongsu/work/blob/master/image/surface_mesh%20.png"  width="400" height="400" />
 </div>
   It is obvious that with the "knife cut", thera are several triangle mesh between the two circle sphere. 
-
-   (4) Also the coding can union all the bones together，but it needs human to adjust the segmentation by hand. 
+    (4) Also the coding can union all the bones together，but it needs human to adjust the segmentation by hand. 
 
 2. I have writen a document which can be used to save and reload the data of the muscle model effiecently. 
 
