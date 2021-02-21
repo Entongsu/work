@@ -7,18 +7,22 @@
  
 <img src="https://github.com/Entongsu/work/blob/master/image/1.png"  width="300" height="300"  />
 
- (2)  Using knife to cut the original model into 100 small piece, which can make the location of circle partical more accurate. 
+ (2)  Using knife to cut the original model into 100 small piece, which can make the location of circle partical more accurate.
  
+ <div align=center>!
 <img src="https://github.com/Entongsu/work/blob/master/image/2.png"  width="300" height="300"  />
-
+</div>
 （3）In order to create the cone between two circle particle with triangle mesh, I also use "knife " to cut the surface for 3 times. 
 
+<div align=center>!
 <img src="https://github.com/Entongsu/work/blob/master/image/3.png"  width="300" height="300" />
-
+</div>
 Image does not have triangle mesh between two circle sphere.
-<img src="https://github.com/Entongsu/work/blob/master/image/no_surface_mesh.png" width="300" height="300" />
 
-Image has triangle mesh between two circle sphere. 
+<img src="https://github.com/Entongsu/work/blob/master/image/no_surface_mesh%20.png" width="300" height="300" />
+
+Image has triangle mesh between two circle sphere.
+
 <img src="https://github.com/Entongsu/work/blob/master/image/surface_mesh%20.png"  width="300" height="300" />
 
 （4） Also the coding can union all the bones together，but it needs human to adjust the segmentation by hand. 
