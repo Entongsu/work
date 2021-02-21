@@ -1,4 +1,16 @@
 # PBD
+
+## week 6
+1. In this week, I used the python console in the blender to create muscle objects by coding and modified it by using "knife" to create the triangle mesh on the surface of cone. And I have improved the model step by step.
+(1） Creating the the surface, but the location of particle is not ideal. 
+(2)  Using knife to cut the original model into 100 small piece, which can make the location of circle partical more accurate. 
+（3）In order to create the cone between two circle particle with triangle mesh, I also use "knife " to cut the surface for 3 times. 
+（4） Also the coding can union all the bones together，but it needs human to adjust the segmentation by hand. 
+
+2. I have writen a document to save and reload the data of the muscle model effiecently. 
+
+3. I have read the "Viper" coding and I am trying to write it into a python format.
+
 ## week 5
 
 Happy New Year!
