@@ -2,21 +2,24 @@
 
 ## week 6
 1. In this week, I used the python console in the blender to create muscle objects by coding and modified it by using "knife" to create the triangle mesh on the surface of cone. And I have improved the model step by step. And all of the process can be completed by coding, which can improve the effiency, especially when we need to create a lot of objects. 
+
  (1） Creating the the surface, but the location of particle is not ideal. 
-<img src="https://github.com/Entongsu/work/blob/master/image/1.png" width="500" height="500" />
+ 
+<img src="https://github.com/Entongsu/work/blob/master/image/1.png"  width="300" height="300"  />
 
  (2)  Using knife to cut the original model into 100 small piece, which can make the location of circle partical more accurate. 
-<img src="https://github.com/Entongsu/work/blob/master/image/2.png" width="500" height="500" />
+ 
+<img src="https://github.com/Entongsu/work/blob/master/image/2.png"  width="300" height="300"  />
 
 （3）In order to create the cone between two circle particle with triangle mesh, I also use "knife " to cut the surface for 3 times. 
 
-<img src="https://github.com/Entongsu/work/blob/master/image/3.png" width="500" height="500" />
+<img src="https://github.com/Entongsu/work/blob/master/image/3.png"  width="300" height="300" />
 
 Image does not have triangle mesh between two circle sphere.
-<img src="https://github.com/Entongsu/work/blob/master/image/3.png" width="500" height="500" />
+<img src="https://github.com/Entongsu/work/blob/master/image/no_surface_mesh.png" width="300" height="300" />
 
 Image has triangle mesh between two circle sphere. 
-<img src="https://github.com/Entongsu/work/blob/master/image/surface_mesh%20.png" width="500" height="500" />
+<img src="https://github.com/Entongsu/work/blob/master/image/surface_mesh%20.png"  width="300" height="300" />
 
 （4） Also the coding can union all the bones together，but it needs human to adjust the segmentation by hand. 
 
