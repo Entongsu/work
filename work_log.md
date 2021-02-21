@@ -1,9 +1,11 @@
 # PBD
 
 ## week 6
-1. In this week, I used the python console in the blender to create muscle objects by coding and modified it by using "knife" to create the triangle mesh on the surface of cone. And I have improved the model step by step. And all of the process can be completed by coding, which can improve the effiency, especially when we need to create a lot of objects. 
+### 1.
+ In this week, I used the python console in the blender to create muscle objects by coding and modified it by using "knife" to create the triangle mesh on the surface of cone. And I have improved the model step by step. And all of the process can be completed by coding, which can improve the effiency, especially when we need to create a lot of objects. 
 
-  1).Creating the the surface, but the location of particle is not ideal. 
+  #### 1).
+  Creating the the surface, but the location of particle is not ideal. 
  
  <div align=center>
 <img src="https://github.com/Entongsu/work/blob/master/image/1.png"  width="200" height="200"  />
