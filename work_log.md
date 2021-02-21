@@ -5,30 +5,31 @@
 
  (1） Creating the the surface, but the location of particle is not ideal. 
  
- <div align=center>!
+ <div align=center>
 <img src="https://github.com/Entongsu/work/blob/master/image/1.png"  width="200" height="200"  />
 </div>
 
  (2)  Using knife to cut the original model into 100 small piece, which can make the location of circle partical more accurate.
  
- <div align=center>!
+ <div align=center>
 <img src="https://github.com/Entongsu/work/blob/master/image/2.png"  width="200" height="200"  />
 </div>
 （3）In order to create the cone between two circle particle with triangle mesh, I also use "knife " to cut the surface for 3 times. 
 
-<div align=center>!
+<div align=center>
 <img src="https://github.com/Entongsu/work/blob/master/image/3.png"  width="200" height="200" />
 </div>
 Image does not have triangle mesh between two circle sphere.
-<div align=center>!
-<img src="https://github.com/Entongsu/work/blob/master/image/no_surface_mesh%20.png" width="200" height="200" />
+<div align=center>
+<img src="https://github.com/Entongsu/work/blob/master/image/no_surface_mesh%20.png" width="400" height="400" />
  </div>
 
 Image has triangle mesh between two circle sphere.
 
-<div align=center>!
-<img src="https://github.com/Entongsu/work/blob/master/image/surface_mesh%20.png"  width="200" height="200" />
+<div align=center>
+<img src="https://github.com/Entongsu/work/blob/master/image/surface_mesh%20.png"  width="400" height="400" />
 </div>
+  It is obvious that with the "knife cut", thera are several triangle mesh between the two circle sphere. 
 （4） Also the coding can union all the bones together，but it needs human to adjust the segmentation by hand. 
 
 
