@@ -36,7 +36,7 @@ Image has triangle mesh between two circle sphere.
   It is obvious that with the "knife cut", thera are several triangle mesh between the two circle sphere. 
     (4) Also the coding can union all the bones together，but it needs human to adjust the segmentation by hand. 
 
-2. I have writen a document which can be used to save and reload the data of the muscle model effiecently. 
+2. Dataset:I have writen a document which can be used to save and reload the data of the muscle model effiecently. 
 
 3. I have read the "Viper" coding and I am trying to write it into a python format.
 
