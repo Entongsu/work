@@ -1,7 +1,15 @@
 # PBD
 
+
+## week 7
+
+I have writen several function from viper by python and I think I need some paramter and methods to visualize the deformed process to verify the accurancy of the function. At the same time, I have confusement over some detail. 
+1. It seems that the contraint paramter is modified by myself or modified during the visualizing the objects. 
+2. I wonder whether I needs to write the whole "viper" project into python format or just some important fuction?
+3. I think it is better to write the coding into a python project? I means that it seems that a lof of previous setting is needed.
+4. I tried to real-time visualizing in blender and it seems that it is feasible enough and it seems that open3d can do the real-time rendering.But I have not verified that. 
 ## week 6
-1. In this week, I used the python console in the blender to create muscle objects by coding and modified it by using "knife" to create the triangle mesh on the surface of cone. And I have improved the model step by step. And all of the process can be completed by coding, which can improve the effiency, especially when we need to create a lot of objects. 
+4. In this week, I used the python console in the blender to create muscle objects by coding and modified it by using "knife" to create the triangle mesh on the surface of cone. And I have improved the model step by step. And all of the process can be completed by coding, which can improve the effiency, especially when we need to create a lot of objects. 
 
 
    (1) Creating the the surface which will be used as demo to create muslce surface, but the location of particle is not ideal. 
