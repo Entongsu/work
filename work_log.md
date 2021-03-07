@@ -41,7 +41,9 @@ Changing the location along x axis and the final location
 
 5.Shape matching. It seems that the method in the viper is more complicated and I failed in understanding some of equations. In the XPBD situaion, the time step and compliance have greate impact on the final result 
 
+6. I am trying to write a demo which can real time rendering the animation in the blender. 
 
+I have an idea. I wonder whether it is applicable to write the XPBD or PBD constraint into python package. I think in this way, we can share and use some constraints more efficiently.
 
 ## week 7
 
