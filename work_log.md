@@ -33,7 +33,6 @@ Changing the radius and the final location
 Changing the location along x axis and the final location
 
 <div align=center>
-<div align=center>
 <img src="https://github.com/Entongsu/work/blob/master/image/volume2.png"  width="200" height="200"  />
 </div>
    
