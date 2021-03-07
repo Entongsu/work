@@ -33,10 +33,14 @@ Changing the location along x axis and the final location
 <img src="https://github.com/Entongsu/work/blob/master/image/volume2.png"  width="200" height="200"  />
 </div>
    
- In the viper, there are two versons of volume conservation method. And I think this one is only applicable to the change of radius.And the another version is applicable to location change. I think I need to do more research these.
+  In the viper, there are two versons of volume conservation method. And I think this one is only applicable to the change of radius.And the another version is applicable to location change. I think I need to do more research these.
  
 
 5.  Shape matching. It seems that the method in the viper is more complicated and I failed in understanding some of equations. 
+
+ In the XPBD situaion, the time step and compliance have greate impact on the final result 
+
+
 
 ## week 7
 
