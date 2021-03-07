@@ -9,6 +9,7 @@ This is the gif of the stretch.
  <div align=center>
 <img src="https://github.com/Entongsu/work/blob/master/image/strectch.gif"  width="200" height="200"  />
 </div>
+
 2. distance contraints and max distance constraints. This part also applicable.
 
 3. Bending constraints. I am not sure how to verify this part and I am confused about the quaternion setting of bending operation.
