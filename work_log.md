@@ -4,9 +4,9 @@
 
 This week I have written the coding according to the "viper" and "interactive CG".
 
-1、stretch constraints. I have writen this in two version(PBD and XPBD). And using blender to verify that the two verson is correct, including the objects' orientation and location.
+1.stretch constraints. I have writen this in two version(PBD and XPBD). And using blender to verify that the two verson is correct, including the objects' orientation and location.
 
-2、 distance contraints and max distance constraints. This part also applicable.
+2. distance contraints and max distance constraints. This part also applicable.
 
 3. Bending constraints. I am not sure how to verify this part and I am confused about the quaternion setting of bending operation.
 
