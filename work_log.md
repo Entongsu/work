@@ -1,5 +1,13 @@
 # PBD
 
+## week 8
+
+This week I have written the coding according to the "viper" and "interactive CG".
+1、stretch constraints. I have writen this in two version(PBD and XPBD). And using blender to verify that the two verson is correct, including the objects' orientation and location.
+2、 distance contraints and max distance constraints. This part also applicable. 
+3. Bending constraints. I am not sure how to verify this part and I am confused about the quaternion setting of bending operation.
+4. Volume constraint. In the viper, the author proposes a new kind of volume conservation method，but I am consfused that which one is the new one. It seems that in the coding, I have verfied one kind of volume conservation method. But when it comes to another, I am still confused about its quaternion.
+5.  Shape matching. It seems that the method in the viper is more complicated and I failed in understanding some of equations. 
 
 ## week 7
 
