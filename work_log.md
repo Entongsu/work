@@ -20,6 +20,7 @@ This is the gif of the stretch.
 How to deternmine and  calculate the quaternion is very confusing.
 
 4. Volume constraint. In the viper, the author proposes a new kind of volume conservation method，but I am consfused that which one is the new one. It seems that in the coding, I have verfied one kind of volume conservation method. But when it comes to another, I am still confused about its quaternion.
+
 This is the original demo
  <div align=center>
 <img src="https://github.com/Entongsu/work/blob/master/image/orignal.png"  width="200" height="200"  />
@@ -28,7 +29,9 @@ Changing the radius and the final location
 <div align=center>
 <img src="https://github.com/Entongsu/work/blob/master/image/volume1.png"  width="200" height="200"  />
 </div>
+
 Changing the location along x axis and the final location
+
 <div align=center>
 <div align=center>
 <img src="https://github.com/Entongsu/work/blob/master/image/volume2.png"  width="200" height="200"  />
@@ -37,9 +40,7 @@ Changing the location along x axis and the final location
   In the viper, there are two versons of volume conservation method. And I think this one is only applicable to the change of radius.And the another version is applicable to location change. I think I need to do more research these.
  
 
-5.Shape matching. It seems that the method in the viper is more complicated and I failed in understanding some of equations. 
-
- In the XPBD situaion, the time step and compliance have greate impact on the final result 
+5.Shape matching. It seems that the method in the viper is more complicated and I failed in understanding some of equations. In the XPBD situaion, the time step and compliance have greate impact on the final result 
 
 
 
